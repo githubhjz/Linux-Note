@@ -9,6 +9,6 @@ int main(void)
 	now_time = time(NULL);
 	
 	printf("now ts:%u\n",now_time);
-	
+	printf("ctime:%s",ctime(&now_time));
 	return 0;
 }
